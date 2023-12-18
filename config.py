@@ -35,19 +35,19 @@ OWNER_ID = int(getenv("OWNER_ID", 6079943111))
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("AAHg2HxdruRwzMl6sMoUpL5b9sxsUw4rgGA")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneXMusic",
+    "https://t.me/anime_fan_owner",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AlonesHeaven")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anime_x_god")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/anime_savage_group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
